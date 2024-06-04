@@ -31,5 +31,40 @@
 }
 
 .nav-list:hover {
-  color: blue;
+  color: rgb(45, 12, 195);
+}
+
+.feedback-form {
+  max-width: 300px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  flex-direction: column;
+  padding: 24px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.feedback-form label {
+  flex-direction: column;
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.feedback-form button {
+  font: inherit;
+  cursor: pointer;
+  max-width: 95px;
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #4e75ff;
+  border: none;
+  color: #fff;
+}
+
+.feedback-form button:hover {
+  background: #053afa;
 }
